@@ -53,7 +53,7 @@ class UI {
         repos.forEach(repo => {
             output += `
                 <div class="card card-body mb-2">
-                    <div class="row d-flex d-flex justify-content-between px-2">
+                    <div class="row d-flex justify-content-between px-2">
                         <div>
                             <a href="${repo.html_url}" target="_blank">${repo.name}</a>
                         </div>
